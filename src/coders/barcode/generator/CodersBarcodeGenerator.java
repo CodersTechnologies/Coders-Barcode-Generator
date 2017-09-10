@@ -45,8 +45,7 @@ public class CodersBarcodeGenerator {
             //To generate number of single code barcodes
             for(int j=0; j<6;j++){
                 table.addCell(createBarcode(writer, String.format("LMS"+"%08d", i)));
-            }
-            
+            }            
         }
         document.add(table);
         document.close();
