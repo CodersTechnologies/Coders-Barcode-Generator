@@ -22,6 +22,7 @@ import com.itextpdf.text.pdf.PdfWriter;
  * @author sunny
  */
 public class CodersBarcodeGenerator {
+    
     public static final String DEST = "results/barcodes/barcode_in_table.pdf";
    
     public static PdfPCell createBarcode(PdfWriter writer, String code) throws DocumentException, IOException {
