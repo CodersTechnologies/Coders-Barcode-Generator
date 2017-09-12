@@ -42,7 +42,7 @@ public class CodersBarcodeGenerator {
         table.setWidthPercentage(100);
         
         //To set range of barcodes upto which codes are to be generated
-        for (int i = 0; i < 28; i++) {
+        for (int i = 1; i <= 100; i++) {
             //To generate number of single code barcodes
             for(int j=0; j<6;j++){
                 table.addCell(createBarcode(writer, String.format("LMS"+"%08d", i)));
